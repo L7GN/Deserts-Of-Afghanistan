@@ -488,10 +488,10 @@ def LongLiveTheKing():
                 time.sleep(5)
                 intro()
 
-            if choice in answer_D:
+            if choice in DUEL:
                 print ("You stare down the predator")
                 if player.speed > 6:
-                      print ("You shoot a fully charged laserbeam at punisher turning his head to dust")
+                      print ("You shoot a fully charged laserbeam at predator turning his head to dust")
                       print ("his headless body falls to the ground")
                       time.sleep(5)
                       player.body_count = player.body_count + 1
