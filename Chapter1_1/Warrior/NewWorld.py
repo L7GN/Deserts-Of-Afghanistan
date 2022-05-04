@@ -106,7 +106,19 @@ def MandoKill():
     time.sleep(5)
     print ("You stay with him and he tells you about his plans to rob the millenium falcon and to create a new deathstar to destroy universes different to his own")
     print ("END OF CHAPTER1.1:THE NEW WORLD")
-    import Vader
+    if player.char_type == "mage":
+        from Mage import Vader
+    if player.char_type == "thief":
+        from Thief import Vader
+    if player.char_type == "prisoner":
+        from Prisoner import Vader
+    if player.char_type == "gamer":
+        from Gamer import Vader
+    if player.char_type == "vagabound":
+        from Vagabound import Vader
+    if player.char_type == "warrior":
+        from Warrior import Vader
+
 
 def TheGoblinKill():
     print ("------------------------------------------------------------")
@@ -124,7 +136,19 @@ def TheGoblinKill():
     print ("You accept..")
     time.sleep(4)
     print ("END OF CHAPTER1.1:THE NEW WORLD")
-    import BountyHunters
+    if player.char_type == "mage":
+        from Mage import BountyHunters
+    if player.char_type == "thief":
+        from Thief import BountyHunters
+    if player.char_type == "prisoner":
+        from Prisoner import BountyHunters
+    if player.char_type == "gamer":
+        from Gamer import BountyHunters
+    if player.char_type == "vagabound":
+        from Vagabound import BountyHunters
+    if player.char_type == "warrior":
+        from Warrior import BountyHunters
+
 
 def BobaKill():
     print ("------------------------------------------------------------")
@@ -207,7 +231,19 @@ def AcceptGoblinDeal():
             print ("You try to find help and come across Arthur Morgan")
             print ("He asks if you need a job and you accept")
             print ("END OF CHAPTER1.1 - THE NEW WORLD")
-            import RedDead
+            if player.char_type == "mage":
+                from Mage import RedDead
+            if player.char_type == "thief":
+                from Thief import RedDead
+            if player.char_type == "prisoner":
+                from Prisoner import ReadDead
+            if player.char_type == "gamer":
+                from Gamer import RedDead
+            if player.char_type == "vagabound":
+                from Vagabound import RedDead
+            if player.char_type == "warrior":
+                from Warrior import RedDead
+
 
 def RejectGoblinDeal():
     print ("------------------------------------------------------------")
@@ -223,7 +259,19 @@ def RejectGoblinDeal():
     time.sleep(7)
     print ("You get your very own version of an iron man suit")
     print ("END OF CHAPTER1.1:THE NEW WORLD")
-    import ArmourWars
+    if player.char_type == "mage":
+        from Mage import ArmourWars
+    if player.char_type == "thief":
+        from Thief import ArmourWars
+    if player.char_type == "prisoner":
+        from Prisoner import ArmourWars
+    if player.char_type == "gamer":
+        from Gamer import ArmourWars
+    if player.char_type == "vagabound":
+        from Vagabound import ArmourWars
+    if player.char_type == "warrior":
+        from Warrior import ArmourWars
+
 
 
 def SupriseGreenGoblin():

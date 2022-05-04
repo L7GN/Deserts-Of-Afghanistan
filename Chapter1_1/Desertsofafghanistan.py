@@ -18,6 +18,9 @@ def MainMenu():
   choice = input()
   if choice in answer_A:
     intro()
+  else:
+    intro()
+      
 def intro():
   print ("STARTING GAME...")
   print ("You are in the deserts of Afghanistan, do you want to go:")
@@ -43,6 +46,9 @@ def option_north():
         help_rock()
     elif choice in answer_C:
         Rock_crawl()
+    else:
+      print (required)
+      option_north()
 def option_west():
     print ("You reach the borders of China")
     print ("You encounter Genghis Khan")
@@ -55,6 +61,9 @@ def option_west():
       NorthKorea_Left()
     elif choice in answer_B:
       NorthKorea_Right()
+    else:
+      print (required)
+      option_west()
       
 
 def NorthKorea_Left():
@@ -67,6 +76,9 @@ def NorthKorea_Left():
     NorthKorea_LeftRight()
   elif choice in answer_C:
     NorthKorea_LeftUp()
+  else:
+    print (required)
+    NorthKorea_Left()
 
 def NorthKorea_LeftLeft():
   print ("You go left again and fall to your death")

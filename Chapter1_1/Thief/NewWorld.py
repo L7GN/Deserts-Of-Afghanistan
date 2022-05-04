@@ -175,7 +175,7 @@ def AcceptGoblinDeal():
     print ("You black out and then wake up to see the green goblin staring at you")
     time.sleep(3)
     print ("He calls you a failure and asks for your abilities")
-    print ("Do you: A:Say nothing B:Lie")
+    print ("Do you: A:Say nothing")
     choice = input(">>")
     if choice in answer_A:
         print ("------------------------------------------------------------")
